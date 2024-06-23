@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className="w-screen h-12 bg-black">
       <div className="flex justify-between">
-        <div className="font-bold mt-2 mr-4">TASK LIST</div>
+        <div className="font-bold mt-2 ml-5">TASK LIST</div>
 
         {status === "authenticated" ? (
           <div>
